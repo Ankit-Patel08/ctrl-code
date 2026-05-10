@@ -1,11 +1,9 @@
+# PROJECT STRUCTURE
 
-PROJECT STRUCTURE
-=================
-
+```txt
 leetcode_app/
 │
 ├── backend/
-│   │
 │   ├── config/
 │   │   └── database.js
 │   │
@@ -46,56 +44,23 @@ leetcode_app/
 │   │
 │   ├── .env
 │   ├── package.json
-│   ├── package-lock.json
 │   └── server.js
 │
-│
 ├── codestreak-frontend/
-│   │
 │   ├── src/
-│   │   │
 │   │   ├── api/
-│   │   │   ├── activity.js
-│   │   │   ├── auth.js
-│   │   │   ├── client.js
-│   │   │   ├── goals.js
-│   │   │   ├── groups.js
-│   │   │   ├── leaderboard.js
-│   │   │   └── users.js
-│   │   │
 │   │   ├── components/
-│   │   │   ├── charts.jsx
-│   │   │   ├── Layout/
-│   │   │   │   └── Sidebar.jsx
-│   │   │   └── UI/
-│   │   │       └── index.jsx
-│   │   │
 │   │   ├── context/
-│   │   │   └── AuthContext.jsx
-│   │   │
 │   │   ├── hooks/
-│   │   │   ├── useApi.js
-│   │   │   └── useToast.js
-│   │   │
 │   │   ├── pages/
-│   │   │   ├── AuthScreen.jsx
-│   │   │   ├── DashboardView.jsx
-│   │   │   ├── GoalsView.jsx
-│   │   │   ├── GroupsView.jsx
-│   │   │   ├── LeaderboardView.jsx
-│   │   │   └── SettingsView.jsx
-│   │   │
 │   │   ├── constants/
-│   │   │   └── theme.js
-│   │   │
 │   │   ├── App.jsx
 │   │   └── main.jsx
 │   │
 │   ├── index.html
 │   ├── vite.config.js
-│   ├── package.json
-│   └── package-lock.json
-│
+│   └── package.json
 │
 ├── .gitignore
 └── README.md
+```
